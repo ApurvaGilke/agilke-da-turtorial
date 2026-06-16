@@ -7,6 +7,7 @@ import {
   decorateSections,
   decorateBlocks,
   decorateTemplateAndTheme,
+  loadTheme,
   waitForFirstImage,
   loadSection,
   loadSections,
@@ -74,6 +75,7 @@ export function decorateMain(main) {
 async function loadEager(doc) {
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
+  loadTheme();
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);

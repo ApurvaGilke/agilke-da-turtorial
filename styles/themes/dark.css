@@ -1,0 +1,11 @@
+/* styles/themes/brand-a.css */
+body {
+
+    --background-color: black;
+    --light-color: black;
+    --dark-color: black;
+    --text-color: white;
+    --link-color: white;
+    --link-hover-color: white;
+  }
+  
